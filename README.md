@@ -49,6 +49,34 @@ This tool allows a tester to manually execute the following vulnerability checks
 * Android Studio (Latest Version)
 * A physical Android Device or Emulator (API 30+ requires the `QUERY_ALL_PACKAGES` permission in the Manifest to scan other apps).
 
+## 🚀 Installation and Sideloading
+
+Since the **Intent Injector PoC Tool** is a custom application and not available on the Google Play Store, you must install it via **sideloading** by enabling installation from unknown sources.
+
+### 1. 📥 Download the APK File
+
+1.  Navigate to the **Releases** section of this GitHub repository.
+2.  Download the latest built application file (e.g., `Intent_injector beta.apk`) from the **Assets** listed under the release notes.
+    SHA1            939EE48D4ECBDEBABE30920FD293A58A0DE5B37F
+
+### 2.Enable Installation from Unknown Sources
+
+Android devices block installations from sources outside of the Play Store. You must temporarily grant permission to your file manager or browser.
+
+1.  On your Android device, go to **Settings**.
+2.  Search for **"Install unknown apps"** or navigate to **Security** $\rightarrow$ **Install unknown apps**.
+3.  Find the application you used to download the file (usually **Chrome** or your **Files** app).
+4.  **Toggle the switch ON** for that specific application to grant it permission to install the APK. 
+
+### 3.Complete the Installation
+
+1.  Open your **Files** app (or file manager) on your Android device.
+2.  Navigate to the **Downloads** folder (or the location where you saved the `.apk` file).
+3.  Tap the downloaded **`.apk` file** (`IntentInjector.apk`).
+4.  Tap **Install** when prompted by the system.
+
+The **Intent Injector PoC Tool** is now installed and ready to launch from your app drawer.
+
 ### Usage Steps
 
 1.  **Target ID:** In the **Target Package Name** field, enter the package ID of the application you wish to test (e.g., `com.example.vulnerableapp`).
