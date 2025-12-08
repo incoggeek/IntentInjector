@@ -1,5 +1,10 @@
 # 🛠️ Intent Injector
 
+<img width="300" height="600" alt="Intent Injector" src="https://github.com/user-attachments/assets/b2a9ec3c-8043-4d88-bd61-dc2e71f9b87a" />
+<img width="300" height="600" alt="Intent Injector" src="https://github.com/user-attachments/assets/81233ac7-7963-4a38-88ad-94d8423a3f9a" />
+<img width="300" height="600" alt="Intent Injector" src="https://github.com/user-attachments/assets/072c6af2-9106-4685-a2df-ac34454c68c8" />
+
+
 ## A Proof-of-Concept Utility for Vulnerability Discovery
 
 This tool is a self-contained Android application designed to test the security of installed applications by directly injecting malicious payloads into exported Android components (Activities, Services, Broadcast Receivers, and Content Providers) via **Intent manipulation**.
@@ -42,12 +47,6 @@ This tool allows a tester to manually execute the following vulnerability checks
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-* Android Studio (Latest Version)
-* A physical Android Device or Emulator (API 30+ requires the `QUERY_ALL_PACKAGES` permission in the Manifest to scan other apps).
 
 ## 🚀 Installation and Sideloading
 
@@ -56,7 +55,8 @@ Since the **Intent Injector PoC Tool** is a custom application and not available
 ### 1. 📥 Download the APK File
 
 1.  Navigate to the **Releases** section of this GitHub repository.
-2.  Download the latest built application file (e.g., `Intent_injector beta.apk`) from the **Assets** listed under the release notes.
+2.  Download the latest built application file (e.g., `Intent_injector_beta.apk`) from the **Assets** listed under the release notes.
+
     SHA1            939EE48D4ECBDEBABE30920FD293A58A0DE5B37F
 
 ### 2.Enable Installation from Unknown Sources
@@ -72,10 +72,10 @@ Android devices block installations from sources outside of the Play Store. You 
 
 1.  Open your **Files** app (or file manager) on your Android device.
 2.  Navigate to the **Downloads** folder (or the location where you saved the `.apk` file).
-3.  Tap the downloaded **`.apk` file** (`IntentInjector.apk`).
+3.  Tap the downloaded **`.apk` file** (`IntentInjector_beta.apk`).
 4.  Tap **Install** when prompted by the system.
 
-The **Intent Injector PoC Tool** is now installed and ready to launch from your app drawer.
+The **Intent Injector** is now installed and ready to launch from your app drawer.
 
 ### Usage Steps
 
@@ -93,3 +93,9 @@ The **Intent Injector PoC Tool** is now installed and ready to launch from your 
 This application is designed for research and educational purposes only. Do **NOT** use this tool to attack any application or system for which you do not have explicit, written authorization from the owner. Unauthorized use is illegal and unethical. The author takes no responsibility for any misuse of this software.
 
 ---
+
+---
+## 🎥 Demonstration
+
+[![Watch the Demo Video](https://github.com/user-attachments/assets/b2a9ec3c-8043-4d88-bd61-dc2e71f9b87a)](https://github.com/user-attachments/assets/e79a0b7b-b8a6-4504-954d-ec1ece8f1e3c)
+
