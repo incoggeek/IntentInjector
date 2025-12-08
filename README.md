@@ -97,5 +97,5 @@ This application is designed for research and educational purposes only. Do **NO
 ---
 ## 🎥 Demonstration
 
-[![Watch the Demo Video](https://github.com/user-attachments/assets/b2a9ec3c-8043-4d88-bd61-dc2e71f9b87a)](https://github.com/user-attachments/assets/e79a0b7b-b8a6-4504-954d-ec1ece8f1e3c)
+[![Visit URL for Demo](https://github.com/user-attachments/assets/e79a0b7b-b8a6-4504-954d-ec1ece8f1e3c)
 
